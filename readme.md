@@ -1,7 +1,7 @@
 # CMS example in Laravel 5
 A Single-page application example building with Laravel and Angularjs. Project will have two parts, back-end and front-end run separately. 
-It handles a management user. Some technicals applied to this project.
 
+It handles a management user. Some technicals applied to this project:
 - Restful webservice
 - Token-based authentication
 - Validation
@@ -102,7 +102,9 @@ Pass Token to API
 
 Special thanks to **Mrs. Tien**, **Mr. Tam**, **Mr. Tuan Nguyen** and **Mr. Kondo** have supported me to complete this project.
 
-In addition, the project used packages as below:
+The project was created rely on frameworks **Laravel 5.1**, **AngularJS 1.4.7**, **Bootstrap 3.3.5**.
+
+In addition, it also used packages as below:
 
 Back-end
 
