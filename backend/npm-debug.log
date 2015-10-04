@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'barryvdh/laravel-cors',
+1 verbose cli   '--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/tuan/Sites/api.mulodo.local/backend/package.json
+5 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular/package.json
+6 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular-messages/package.json
+7 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular-resource/package.json
+8 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular-route/package.json
+9 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular-ui-bootstrap/package.json
+10 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/angular-utils-pagination/package.json
+11 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/bootstrap-sass/package.json
+12 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/jquery/package.json
+14 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/laravel-elixir/package.json
+15 verbose installManyTop reading scoped package data from /Users/tuan/Sites/api.mulodo.local/backend/node_modules/ngstorage/package.json
+16 info package.json ngstorage@0.3.9 No license field.
+17 info package.json jquery@2.1.4 No license field.
+18 verbose readDependencies loading dependencies from /Users/tuan/Sites/api.mulodo.local/backend/package.json
+19 silly cache add args [ 'barryvdh/laravel-cors', null ]
+20 verbose cache add spec barryvdh/laravel-cors
+21 silly cache add parsed spec { raw: 'barryvdh/laravel-cors',
+21 silly cache add   scope: null,
+21 silly cache add   name: null,
+21 silly cache add   rawSpec: 'barryvdh/laravel-cors',
+21 silly cache add   spec: 'github:barryvdh/laravel-cors',
+21 silly cache add   type: 'hosted',
+21 silly cache add   hosted:
+21 silly cache add    { type: 'github',
+21 silly cache add      ssh: 'git@github.com:barryvdh/laravel-cors.git',
+21 silly cache add      sshUrl: 'git+ssh://git@github.com/barryvdh/laravel-cors.git',
+21 silly cache add      httpsUrl: 'git+https://github.com/barryvdh/laravel-cors.git',
+21 silly cache add      gitUrl: 'git://github.com/barryvdh/laravel-cors.git',
+21 silly cache add      shortcut: 'github:barryvdh/laravel-cors',
+21 silly cache add      directUrl: 'https://raw.githubusercontent.com/barryvdh/laravel-cors/master/package.json' } }
+22 verbose addRemoteGit caching barryvdh/laravel-cors
+23 verbose addRemoteGit barryvdh/laravel-cors is a repository hosted by github
+24 silly tryGitProto attempting to clone git://github.com/barryvdh/laravel-cors.git
+25 silly tryClone cloning barryvdh/laravel-cors via git://github.com/barryvdh/laravel-cors.git
+26 verbose tryClone git-github-com-barryvdh-laravel-cors-git-c17cd29e not in flight; caching
+27 info git [ 'config', '--get', 'remote.origin.url' ]
+28 silly validateExistingRemote barryvdh/laravel-cors remote.origin.url: git://github.com/barryvdh/laravel-cors.git
+29 verbose validateExistingRemote barryvdh/laravel-cors is updating existing cached remote /Users/tuan/.npm/_git-remotes/git-github-com-barryvdh-laravel-cors-git-c17cd29e
+30 info git [ 'fetch', '-a', 'origin' ]
+31 verbose updateRemote git fetch -a origin (git://github.com/barryvdh/laravel-cors.git)
+32 verbose setPermissions barryvdh/laravel-cors set permissions on /Users/tuan/.npm/_git-remotes/git-github-com-barryvdh-laravel-cors-git-c17cd29e
+33 verbose resolveHead barryvdh/laravel-cors original treeish: master
+34 info git [ 'rev-list', '-n1', 'master' ]
+35 silly resolveHead barryvdh/laravel-cors resolved treeish: f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+36 verbose resolveHead barryvdh/laravel-cors resolved Git URL: git://github.com/barryvdh/laravel-cors.git#f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+37 silly resolveHead Git working directory: /tmp/npm-4076-4ca3913b/git-cache-7a14f88a83f9/f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+38 info git [ 'clone',
+38 info git   '/Users/tuan/.npm/_git-remotes/git-github-com-barryvdh-laravel-cors-git-c17cd29e',
+38 info git   '/tmp/npm-4076-4ca3913b/git-cache-7a14f88a83f9/f6f389f06d89d73536cf7ffda58850d4d09bdc4d' ]
+39 verbose cloneResolved barryvdh/laravel-cors clone Cloning into '/tmp/npm-4076-4ca3913b/git-cache-7a14f88a83f9/f6f389f06d89d73536cf7ffda58850d4d09bdc4d'...
+39 verbose cloneResolved done.
+40 info git [ 'checkout', 'f6f389f06d89d73536cf7ffda58850d4d09bdc4d' ]
+41 verbose checkoutTreeish barryvdh/laravel-cors checkout Note: checking out 'f6f389f06d89d73536cf7ffda58850d4d09bdc4d'.
+41 verbose checkoutTreeish
+41 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+41 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+41 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+41 verbose checkoutTreeish
+41 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+41 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+41 verbose checkoutTreeish
+41 verbose checkoutTreeish   git checkout -b new_branch_name
+41 verbose checkoutTreeish
+41 verbose checkoutTreeish HEAD is now at f6f389f... Merge pull request #64 from webpatser/master
+42 error addLocal Could not install /tmp/npm-4076-4ca3913b/git-cache-7a14f88a83f9/f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+43 silly tryHTTPS attempting to clone git+https://github.com/barryvdh/laravel-cors.git
+44 silly tryClone cloning barryvdh/laravel-cors via git+https://github.com/barryvdh/laravel-cors.git
+45 verbose tryClone https-github-com-barryvdh-laravel-cors-git-48ce5fc8 not in flight; caching
+46 info git [ 'config', '--get', 'remote.origin.url' ]
+47 silly validateExistingRemote barryvdh/laravel-cors remote.origin.url: https://github.com/barryvdh/laravel-cors.git
+48 verbose validateExistingRemote barryvdh/laravel-cors is updating existing cached remote /Users/tuan/.npm/_git-remotes/https-github-com-barryvdh-laravel-cors-git-48ce5fc8
+49 info git [ 'fetch', '-a', 'origin' ]
+50 verbose updateRemote git fetch -a origin (https://github.com/barryvdh/laravel-cors.git)
+51 verbose setPermissions barryvdh/laravel-cors set permissions on /Users/tuan/.npm/_git-remotes/https-github-com-barryvdh-laravel-cors-git-48ce5fc8
+52 verbose resolveHead barryvdh/laravel-cors original treeish: master
+53 info git [ 'rev-list', '-n1', 'master' ]
+54 silly resolveHead barryvdh/laravel-cors resolved treeish: f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+55 verbose resolveHead barryvdh/laravel-cors resolved Git URL: git+https://github.com/barryvdh/laravel-cors.git#f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+56 silly resolveHead Git working directory: /tmp/npm-4076-4ca3913b/git-cache-f2c715cc895f/f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+57 info git [ 'clone',
+57 info git   '/Users/tuan/.npm/_git-remotes/https-github-com-barryvdh-laravel-cors-git-48ce5fc8',
+57 info git   '/tmp/npm-4076-4ca3913b/git-cache-f2c715cc895f/f6f389f06d89d73536cf7ffda58850d4d09bdc4d' ]
+58 verbose cloneResolved barryvdh/laravel-cors clone Cloning into '/tmp/npm-4076-4ca3913b/git-cache-f2c715cc895f/f6f389f06d89d73536cf7ffda58850d4d09bdc4d'...
+58 verbose cloneResolved done.
+59 info git [ 'checkout', 'f6f389f06d89d73536cf7ffda58850d4d09bdc4d' ]
+60 verbose checkoutTreeish barryvdh/laravel-cors checkout Note: checking out 'f6f389f06d89d73536cf7ffda58850d4d09bdc4d'.
+60 verbose checkoutTreeish
+60 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+60 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+60 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+60 verbose checkoutTreeish
+60 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+60 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+60 verbose checkoutTreeish
+60 verbose checkoutTreeish   git checkout -b new_branch_name
+60 verbose checkoutTreeish
+60 verbose checkoutTreeish HEAD is now at f6f389f... Merge pull request #64 from webpatser/master
+61 error addLocal Could not install /tmp/npm-4076-4ca3913b/git-cache-f2c715cc895f/f6f389f06d89d73536cf7ffda58850d4d09bdc4d
+62 silly trySSH attempting to clone git@github.com:barryvdh/laravel-cors.git
+63 silly tryClone cloning barryvdh/laravel-cors via git@github.com:barryvdh/laravel-cors.git
+64 verbose tryClone git-github-com-barryvdh-laravel-cors-git-eb1d40dd not in flight; caching
+65 info git [ 'config', '--get', 'remote.origin.url' ]
+66 silly validateExistingRemote barryvdh/laravel-cors remote.origin.url: git@github.com:barryvdh/laravel-cors.git
+67 verbose validateExistingRemote barryvdh/laravel-cors is updating existing cached remote /Users/tuan/.npm/_git-remotes/git-github-com-barryvdh-laravel-cors-git-eb1d40dd
+68 info git [ 'fetch', '-a', 'origin' ]
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git) Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git) Permission denied (publickey).
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git) fatal: Could not read from remote repository.
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git)
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git) Please make sure you have the correct access rights
+69 error git fetch -a origin (git@github.com:barryvdh/laravel-cors.git) and the repository exists.
+70 verbose stack Error: Command failed: git fetch -a origin
+70 verbose stack Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+70 verbose stack Permission denied (publickey).
+70 verbose stack fatal: Could not read from remote repository.
+70 verbose stack
+70 verbose stack Please make sure you have the correct access rights
+70 verbose stack and the repository exists.
+70 verbose stack
+70 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+70 verbose stack     at ChildProcess.emit (events.js:110:17)
+70 verbose stack     at maybeClose (child_process.js:1015:16)
+70 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+70 verbose stack     at Socket.emit (events.js:107:17)
+70 verbose stack     at Pipe.close (net.js:485:12)
+71 verbose cwd /Users/tuan/Sites/api.mulodo.local/backend
+72 error Darwin 13.4.0
+73 error argv "node" "/usr/local/bin/npm" "install" "barryvdh/laravel-cors" "--save"
+74 error node v0.12.7
+75 error npm  v2.11.3
+76 error code 128
+77 error Command failed: git fetch -a origin
+77 error Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+77 error Permission denied (publickey).
+77 error fatal: Could not read from remote repository.
+77 error
+77 error Please make sure you have the correct access rights
+77 error and the repository exists.
+78 error If you need help, you may report this error at:
+78 error     <https://github.com/npm/npm/issues>
+79 verbose exit [ 1, true ]

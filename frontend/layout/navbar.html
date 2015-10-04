@@ -1,0 +1,37 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Mulodo</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input ng-model="search" class="form-control" placeholder="Search">
+                </div>
+            </form>
+            <ul class="nav navbar-nav" ng-controller="HomeController">
+                <li data-ng-hide="token"><a href="#/signin">Sign In</a></li>
+                <li data-ng-hide="token"><a href="#/signup">Sign Up</a></li>
+                <li data-ng-show="token"><a href="#/user/create">Add new user</a></li>
+                <li data-ng-show="token"><a href="#/user">User List</a></li>
+                <li data-ng-show="token">
+
+                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Welcome<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ng-click="signout()">Sign Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div> <!-- container-fluid -->
+</nav><!-- navbar -->

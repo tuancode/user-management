@@ -1,0 +1,38 @@
+<div class="panel panel-default table-responsive">
+    <div class="panel-heading">
+        User List
+        <span style="float: right; font-size: small; font-weight: normal; width: 65px">
+            <input style="height: 30px" size="1" type="number" min="1" max="100" class="form-control"
+                   ng-model="perPage"/>
+        </span>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+                <th>Create at</th>
+                <th>Update at</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr dir-paginate="user in users | filter: search | itemsPerPage: perPage" total-items="total"
+                current-page="pagination.current">
+                <td>
+                    <a href="#/user/edit/{{user.id}}">Edit</a> |
+                    <a ng-click="deleteUser(user.id)">Delete</a>
+                </td>
+                <td>{{ user.firstName }}</td>
+                <td>{{ user.lastName }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.created_at | date}}</td>
+                <td>{{ user.updated_at | date}}</td>
+            </tr>
+            </tbody>
+        </table>
+        <dir-pagination-controls on-page-change="pageChanged(newPageNumber)"></dir-pagination-controls>
+    </div>
+</div>
