@@ -126,5 +126,5 @@ I also reference the articles as below:
 - http://campus.codeschool.com/courses/shaping-up-with-angular-js/
 - http://www.toptal.com/web/cookie-free-authentication-with-json-web-tokens-an-example-in-laravel-and-angularjs
 
-## Authors
+## Author
 Tuan Vu tuanvu.se@gmail.com
